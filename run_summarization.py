@@ -49,6 +49,8 @@ from transformers import (
 from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version, is_offline_mode
 from transformers.utils.versions import require_version
+import mlflow
+mlflow.pytorch.autolog()
 
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
