@@ -107,7 +107,7 @@ if __name__ == "__main__":
                     continue 
                 line = combine_sentences(line,sentences)                
                 if tokenizer_check_if_text_too_long(line,tokenizer,max_length=1024):
-                    print(f"skipping line as its too long ({len(line)}):\n"+line)
+                    # print(f"skipping line as its too long ({len(line)}):\n"+line)
                     continue
                 
                 if random.random() >0.02:
