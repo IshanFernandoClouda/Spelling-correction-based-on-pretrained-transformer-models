@@ -1,0 +1,15 @@
+artifact_uri: file:///root/Spelling-correction-based-on-pretrained-transformer-models/mlruns/0/01b69c4276c040969cb770b86cbe196c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01b69c4276c040969cb770b86cbe196c
+run_name: ./models/bart-base-en-mix/
+run_uuid: 01b69c4276c040969cb770b86cbe196c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692156696708
+status: 1
+tags: []
+user_id: root
