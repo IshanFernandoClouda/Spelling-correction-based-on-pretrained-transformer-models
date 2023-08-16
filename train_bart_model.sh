@@ -8,10 +8,10 @@ python run_summarization.py \
     --validation_file en.test.csv \
     --output_dir ./models/bart-base-en-mix/ \
     --overwrite_output_dir \
-    --per_device_train_batch_size=2 \
+    --per_device_train_batch_size=8 \
     --per_device_eval_batch_size=32 \
     --gradient_accumulation_steps=32 \
-    --learning_rate="4e-4" \
+    --learning_rate="8e-4" \
     --num_train_epochs=1 \
     --predict_with_generate \
 	--logging_steps="10" \
