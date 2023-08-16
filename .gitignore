@@ -9,3 +9,4 @@ publish
 /data
 default.json
 /models
+/mlruns
